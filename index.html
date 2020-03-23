@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="./js/script.js" type="text/javascript"></script>
+    <title>Handmade candles!</title>
+  </head>
+  <body>
+    <header id="header">
+      <div id="wax-candles">
+        <div class="candles">
+          <img class="wax-candle" id="header-img" src="http://cdn.icon-icons.com/icons2/1074/PNG/512/20_candle_flame_decoration_light_christmas_xmas_icon-icons.com_77055.png" alt="candle img">
+          <svg width="5" height="5"><ellipse cx="2.5" cy="2.5" rx="2.5" ry="2.5" fill="#e6001f"></svg>
+        </div>
+        <div class="candles">
+          <img class="wax-candle" src="http://cdn.icon-icons.com/icons2/1074/PNG/512/20_candle_flame_decoration_light_christmas_xmas_icon-icons.com_77055.png" alt="candle img">
+          <svg width="5" height="5"><ellipse cx="2.5" cy="2.5" rx="2.5" ry="2.5" fill="#e6001f"></svg>
+        </div>
+        <div class="candles">
+          <img class="wax-candle" src="http://cdn.icon-icons.com/icons2/1074/PNG/512/20_candle_flame_decoration_light_christmas_xmas_icon-icons.com_77055.png" alt="candle img">
+          <svg width="5" height="5"><ellipse cx="2.5" cy="2.5" rx="2.5" ry="2.5" fill="#e6001f"></svg>
+        </div>
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#how-it-works">How it works</a></li>
+          <li><a class="nav-link" href="#purchase">Purchase</a></li>
+          <li><a class="nav-link" href="#contacts-and-map">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <div id="logo">
+        <img id="logo-img" src="http://cdn.icon-icons.com/icons2/644/PNG/512/yellow_candle_icon-icons.com_59559.png" alt="logo img">
+        <span id="logo-text">Place of the wax space</span>
+      </div>
+      <section id="about">
+        <h2>About</h2>
+        <div id="about-description"> 
+          <p>Our candles are handmade using many materials, fragrance and colour, they are quite different from the mass-produced paraffin wax candles available on the market.</p>
+          <p>You may notice some slight variations in size, shape or finish of the candles or wax melts.</p>
+          <p>These result from the fact that our products are individually handmade and are not produced on a mechanised production line. Each candle is therefore unique and these slight imperfections do not affect the burn quality or performance of the candle.</p>
+        </div>
+      </section>
+      <div class="candle-line"></div>
+      <section id="how-it-works">
+        <h2>How it works</h2>
+        <div id="video-wrapper">
+          <p>You can make candles by yourself!</p>         
+          <iframe id="video" src="//www.youtube.com/embed/7Cm5r41Jun4" frameborder="0" allowfullscreen></iframe>
+          <p>Or we can make and deliver it to you!</p> 
+        </div>
+      </section>
+      <div class="candle-line"></div>
+      
+      <section id="purchase">
+        <h2>Choose any pack</h2>
+        <div id="form-wrapper">
+          <form id="form" method="post" name="purchaseForm" action="https://www.freecodecamp.com/email-submit">
+            <div id="packs-wrapper">
+              <input id="five-candles" class="price-input" type="radio" name="price" value="five-candles" checked>
+              <label class="price-label" for="five-candles">
+                <h4>Five-candles pack</h4><hr><br>
+                <p>Select material</p>
+                <select class="material-select" name="material-select">
+                  <option disabled value>Select an option</option>
+                  <option value="wax">Wax</option>
+                  <option value="soy-wax">Soy wax</option>
+                  <option value="paraffin-wax">Paraffin wax</option>
+                  <option value="stearin">Stearin</option>
+                </select>
+                <p>Select color</p>
+                <select class="color-select" name="color-select">
+                  <option disabled value>Select an option</option>
+                  <option value="red">Red</option>
+                  <option value="green">Green</option>
+                  <option value="blue">Blue</option>
+                  <option value="purple">Purple</option>
+                  <option value="orange">Orange</option>
+                  <option value="yellow">Yellow</option>
+                  <option value="indigo">Indigo</option>
+                  <option value="black">Black</option>
+                  <option value="white">White</option>
+                </select>
+                <p></p><br><hr>
+                <p>Price - 10$</p>
+              </label>
+              <input id="ten-candles" class="price-input" type="radio" name="price" value="ten-candles">
+              <label class="price-label" for="ten-candles">
+                <h4>Ten-candles pack</h4><hr><br>
+                <p>Select material</p>
+                <select class="material-select" name="material-select">
+                  <option disabled value>Select an option</option>
+                  <option value="wax">Wax</option>
+                  <option value="soy-wax">Soy wax</option>
+                  <option value="paraffin-wax">Paraffin wax</option>
+                  <option value="stearin">Stearin</option>
+                </select>
+                <p>Select color</p>
+                <select class="color-select" name="color-select">
+                  <option disabled value>Select an option</option>
+                  <option value="red">Red</option>
+                  <option value="green">Green</option>
+                  <option value="blue">Blue</option>
+                  <option value="purple">Purple</option>
+                  <option value="orange">Orange</option>
+                  <option value="yellow">Yellow</option>
+                  <option value="indigo">Indigo</option>
+                  <option value="black">Black</option>
+                  <option value="white">White</option>
+                </select>
+                <p></p><br><hr>
+                <p>Price - 17$</p>
+              </label>
+              <input id="twenty-candles" class="price-input" type="radio" name="price" value="twenty-candles">
+              <label class="price-label" for="twenty-candles">
+                <h4>Twenty-candles pack</h4><hr><br>
+                <p>Select material</p>
+                <select class="material-select" name="material-select">
+                  <option disabled value>Select an option</option>
+                  <option value="wax">Wax</option>
+                  <option value="soy-wax">Soy wax</option>
+                  <option value="paraffin-wax">Paraffin wax</option>
+                  <option value="stearin">Stearin</option>
+                </select>
+                <p>Select color</p>
+                <select class="color-select" name="color-select">
+                  <option disabled value>Select an option</option>
+                  <option value="red">Red</option>
+                  <option value="green">Green</option>
+                  <option value="blue">Blue</option>
+                  <option value="purple">Purple</option>
+                  <option value="orange">Orange</option>
+                  <option value="yellow">Yellow</option>
+                  <option value="indigo">Indigo</option>
+                  <option value="black">Black</option>
+                  <option value="white">White</option>
+                </select>
+                <p></p><br><hr>
+                <p>Price - 30$</p>
+              </label>
+            </div>
+            <input name="email" id="email" type="email" placeholder="Enter your email" required>
+            <input id="submit" type="submit" value="Purchase" size="40">
+          </form>
+        </div>
+      </section>
+      <div class="candle-line"></div>
+      
+      <section id="contacts-and-map">
+        <h2>Contacts</h2>
+        <div id="contacts-and-map-wrapper">
+          <div id="map"></div>
+          <div id="contacts">
+            <p><span>Adress: </span>China, Mount Everest</p>
+            <p><span>Telephone: </span>8-800-535-35-35</p>
+            <p><span>Email: </span>placeofthewaxspace@wax.com</p>
+            <p><span>Office hours: </span>10:00-20:00</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  
+    <footer>
+      <h4>Technologies for humanity</h4>
+      <h5>&copy Shiasu inc.</h5>
+    </footer>
+  </body>
+</html>
